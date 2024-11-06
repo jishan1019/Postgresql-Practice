@@ -51,3 +51,25 @@ SELECT email as "Student email" FROM students
 
 SELECT * FROM students ORDER BY age ASC
 
+SELECT country FROM students ORDER BY country ASC
+
+-- UNIQUE value show
+SELECT DISTINCT country FROM students
+
+SELECT * FROM students WHERE country='USA'
+
+SELECT * FROM students WHERE grade= 'A' and course  = 'English'
+
+SELECT * FROM students WHERE country = 'USA' OR country = 'INDIA'
+
+
+
+SELECT * FROM students WHERE age <=20
+
+
+
+
+SELECT * FROM students WHERE age <> 20
+
+
+-- MODUEL CONTINUE AFTER 51-6 
