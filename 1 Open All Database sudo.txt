@@ -1,0 +1,8 @@
+1. Open All Database: sudo -u postgres psql
+2. set password : ALTER USER postgres PASSWORD '1234';
+
+
+\l => list,
+\q => quit
+
+
