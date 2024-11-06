@@ -21,3 +21,25 @@ ALTER TABLE persion ALTER COLUMN user_age set NOT NULL
 
 -- remove constatn 
 ALTER TABLE persion ALTER COLUMN user_age drop NOT NULL
+
+
+-- add unique field
+ALTER TABLE persion ADD constraint unique_persion_user_age UNIQUE(user_age)
+
+-- create primary key
+ALTER TABLE persion ADD constraint pk_persion_id PRIMARY KEY(id)
+
+
+
+
+ALTER TABLE persion DROP constraint pk_persion_id
+
+
+
+
+-- DATABASE TABLE ALL DATA REMOVE\
+TRUNCATE TABLE persion
+
+
+-- Delete table
+DROP TABLE persion 
