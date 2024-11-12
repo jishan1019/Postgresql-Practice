@@ -73,3 +73,18 @@ SELECT * FROM students WHERE age <> 20
 
 
 -- MODUEL CONTINUE AFTER 51-6 
+
+SHOW timezone
+
+SELECT now()
+
+
+SELECT CURRENT_DATE
+
+SELECT now()::date
+
+SELECT to_char(now(), 'dd/mm/yyyy')
+
+SELECT CURRENT_DATE - INTERVAL '1 year'
+
+SELECT age(CURRENT_DATE, '2002-04-07')
