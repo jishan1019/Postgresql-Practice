@@ -87,3 +87,6 @@ SELECT department_name, round(avg(salary)) as avg_salary FROM employees
 
 SELECT extract(YEAR FROM hire_date) as hire_year, count(*) FROM employees
     GROUP BY hire_year ORDER BY hire_year DESC
+
+
+
